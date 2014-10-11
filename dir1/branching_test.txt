@@ -1,5 +1,10 @@
+F
 a
 b
 c
 d
+<<<<<<< HEAD
 e
+=======
+
+>>>>>>> experiment
