@@ -5,8 +5,7 @@ These are some methods for reading and parsing files.
 def manage_line(line) :
     splitline = line.split()
     if int(splitline[1]) > int(splitline[2]) :
-       print line
-       return line
+       return line.rstrip('\n')
 
 def funcread(fname) :
     #create a file handle so i can read the file
